@@ -46,9 +46,7 @@ void	Class_InverterAlg::Alg_Int_InvCurrRmsReg(void)
 				{
 					m_un_IntgInvIRRms_0.dword = 0;
 				}
-			}
-			
-			//欠流调节			
+			}		
 			if((abs(m_i16_IerrInvRms_0) >= i16_TmpCx_0)
 				&&(m_i16_IerrInvRms_0 > 0)
 				&&(m_un_IntgInvIRRms_0.dword < 0)
